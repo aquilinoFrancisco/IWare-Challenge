@@ -1,2 +1,2 @@
 # IWare-challenge
-Challenge one &amp; challenge 2
+API Rest que proporciona un servicio que expone endpoints para añadir, eliminar, editar o consultar diferentes productos.
