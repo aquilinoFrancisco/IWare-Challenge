@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:th="http://www.thymeleaf.org">
+
+    <head>
+        <title>GBM Challenge</title>
+        <meta charset="UTF-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    </head>
+
+    <body>
+        <div class="container">
+            <h1 class="text-center my-3">IWare Challenge - Rest WS</h1>
+            <hr/>
+
+            <p class="lead">Final application</p>
+
+            <label>Demo</label>
+            <ul>
+                <li><a href="/demo">Rest WS application</a></li>
+            </ul>
+            <hr/>
+
+            <p class="lead">Technical details</p>
+
+            <label>Endpoints</label>
+            <ul> 
+                <li><strong>/get-last-position</strong> - (GET request) Get all. Return JSON.</li>
+                <li><strong>/set-position</strong> - (PUT request) Set a new item.</li>
+            </ul>
+
+            <label>Security</label>
+            <ul>
+                <li>It uses a <strong>basic access authentication</strong> (user & password).</li>
+            </ul>
+
+            <label>Webhook</label>
+            <ul>
+                <li>
+                    <a href="https://iwarechanllenge.requestcatcher.com/"
+                       target="_blank">
+                        Website to visualize the webhook requests
+                    </a>
+                </li>
+            </ul>
+            <hr/>
+        </div>
+
+    </body>
+</html>
